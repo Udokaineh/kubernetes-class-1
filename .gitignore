@@ -1,0 +1,17 @@
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor folders
+.vscode/
+.idea/
+
+# Secrets — never commit real secret values
+# (our mongo-secret.yaml is safe because it only has base64 demo values
+#  but in a real project you would add it here)
+# mongo-secret.yaml
+
+# Node / npm
+node_modules/
+*.log
